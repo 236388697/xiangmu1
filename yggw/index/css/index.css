@@ -5,7 +5,7 @@
 	position: relative;
 }
 .top-live{
-	margin-left: 225px;
+	margin-left: 230px;
 }
 .live-left{
 	width: 370px;
@@ -52,7 +52,7 @@
 	       height: 100%;
         	position:absolute;
         	top:0;
-        	left:218px;
+        	left:231px;
         }
 .wrapper img{
 	width: 800px;
@@ -79,7 +79,7 @@
             background-color: pink;
         }
 .banner-box .wrap-ul{
-	width: 137px;
+	width: 150px;
 	height: 483px;
 	border: 1px solid yellow;
 	position: absolute;
@@ -87,16 +87,27 @@
 	top: 0px;
 	z-index: 200;
 }  
-.ul1{
-	height: 30px;
-}   
+.wrap-ul .uls{
+	height: 46px;
+	border: 1px solid darkgoldenrod;
+	/*padding: 5px 8px;*/
+	display: block;
+	text-align: center;
+	line-height: 46px;
+	
+} 
+.uls a{
+	font-size: 12px;
+}
+ 
 .sub-class{
 	width: 880px;
-	border: 1px solid blueviolet;
+	border: 1px solid whitesmoke;
 	z-index: 200;
 	position: absolute;
 	top: 0px;
 	left: 138px;
 	background-color: #FFFDEE;
+	display: none;
 }   
 

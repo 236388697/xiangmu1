@@ -1,3 +1,4 @@
+window.onload=function(){
 var timer = setInterval(autoPlay , 2000);
 	var index = 0;
 	function autoPlay(){
@@ -15,3 +16,15 @@ var timer = setInterval(autoPlay , 2000);
 				  .fadeOut(1000);
 	
 	}
+	
+$(".uls").each(function(indexs){
+	console.log(indexs);
+	$(".uls").eq(indexs).mouseenter(function(){
+		$(".sub-class") .css("display","none");
+		$(".sub-class").eq(indexs).css("display","block");
+       
+   	 
+   })
+})
+  
+}
