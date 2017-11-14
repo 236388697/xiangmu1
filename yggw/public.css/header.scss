@@ -1,0 +1,176 @@
+ html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input        {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            }
+            input{
+                border:0;outline:none;
+            }
+            body{
+                font-size: 12px;
+            }
+             a{
+                text-decoration: none;
+                color: #555;
+                line-height: 20px;
+                margin: 0 5px 0 0;
+              
+             }
+            #box{
+                width: 100%;
+                height: 100%;
+                
+            } 
+            header{
+                width: 100%;
+                height: 35px;
+                background-color: #f6f6f6;
+                border-bottom: 1px solid #E5E5E5 ;
+            }
+            .header,.nav,.nav-bottom{
+                width: 1100px;
+//              border: 1px solid pink;
+                margin: auto;
+            }
+            .header{
+                height: 35px;
+                overflow: hidden;
+            }
+            .login{
+                width: 60%;
+                margin-left: 43%;
+            }
+            .login ul{
+                float: left;
+                width: 100px;
+                height: 20px;
+                margin-top: 8px;
+                border-right: 1px solid #E5E5E5;    
+                text-align: center;
+                
+            }
+            .login ul:nth-child(1){
+                width: 150px;
+                overflow: hidden;
+            }
+            .login ul:nth-child(1) li{
+                /*width: 90px;*/
+                height: 20px;
+                float: left;
+                margin-right: 10px;
+            }
+            .login ul:last-of-type{
+                border-right: none;
+            }
+            nav{
+                width: 100%;
+                height: 160px;
+                border-bottom: 1px solid orangered;
+            }
+            .nav-left{
+                padding-top: 25px;
+                margin-right: 55px;
+            }
+            .nav-center{
+                width: 560px;
+                overflow: hidden;
+            }
+            .nav-centop{
+                width: 540px;
+                height: 34px;
+                border: 1px solid orangered;
+                margin-top: 25px;
+            }
+            .nav-cenbot{
+                margin-top:10px ;
+            }
+            .nav-cenbot ul li{
+                border-right: 1px solid silver;
+                display: inline-block;
+            }
+            .nav-center span{
+                width: 34px;
+                padding: 8px 10px 9px 10px;
+                /*text-align: center;*/
+                /*line-height: 32px;*/
+                border-right: 1px solid lightgray;
+                background-color: #f6f6f6;
+                float: left;
+            }
+            .nav-center #input-text{
+                 width: 397px;
+                height: 32px;
+                /*height: 32px;*/
+                /*padding: px 5px 5px 2px;*/
+                float: left;
+                border: 1px solid #F15C18;
+              /*border-width: 2px 0 2px 2px;*/
+                line-height: 32px;
+                color: #555;
+}
+                
+            
+            .nav-center #input-but{
+                width: 86px;
+                float: left;
+                border: 1px slateblue;
+                padding: 7px 15px 8px 15px;
+                background-color: #F15C18;
+                font-weight: 600px;
+                color:#FFFAF4;
+                font-size: 14px; 
+            }
+            
+            .nav {
+                height: 75%;
+            }
+            .nav div{
+                float: left;
+            }
+            .nav .nav-right{
+                margin-top: 35px;
+                margin-left: 10px;
+            }
+            .nav .nav-right span{
+                color: #555;
+                background-color: #fff;
+                height: 20px;
+                padding: 10px;
+                border: solid 1px #F0F0F0;
+                cursor: pointer;
+            }
+            .nav-bottom{
+                height:24%;
+            }
+            .nav-bottom ul{
+//              height: 48px;
+                height: 100%;
+            }
+            .nav-bottom li{
+                line-height: 40px;
+                display: inline-block;
+                font-size: 14px;
+            }
+            nav .nav-botlis1{
+                padding: 0px 24px;
+                text-align: center;
+                background-color: #F15C18;
+                
+            }
+            nav .nav-botlis1 a{
+                color: #F0F0F0;
+                font-weight: 600;
+                /*color: #FF6D02;*/
+                
+            }
+            nav .nav-botlis a:hover{
+                color: #FF6D02;
+            }
+            .nav-botlis{
+                width: 80px;
+                text-align: center;
+                padding-left: 10;
+            }
+            .orange{
+                color: #FF6D02;
+            }

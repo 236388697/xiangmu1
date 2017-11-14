@@ -1,0 +1,102 @@
+.banner-box{
+	width: 100%;
+	height: 480px;
+	border: 1px solid black;
+	position: relative;
+}
+.top-live{
+	margin-left: 225px;
+}
+.live-left{
+	width: 370px;
+	height: 70px;
+	border: 1px solid #e4e4e4;
+    padding: 5px 0px 5px 0px;
+    margin: 5px 6px 5px 2px;
+    height: 59px;
+    width: 408px;
+    float: left;
+     
+}
+.live-left i{
+	display: block;
+    width: 100px;
+    height: 59px;
+    margin-left: 2px;
+    float: left;
+   
+   
+}
+.live-banner01{
+	 background: url(../indexImg/live1.png) no-repeat;
+}
+.live-banner02{
+	 background: url(../indexImg/live2.png) no-repeat;
+}
+.wrapper{
+            width: 100%;
+            height: 400px;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+        }
+.wrapper ul{
+	       width: 100%;
+	       height: 100%;
+	       background-color: orangered;
+        	position:relative;
+        }
+       
+.wrapper ul li{
+	     width: 100%;
+	       height: 100%;
+        	position:absolute;
+        	top:0;
+        	left:218px;
+        }
+.wrapper img{
+	width: 800px;
+	height: 100%;
+	margin: auto;
+}        
+.wrapper ol{
+            position: absolute;
+            right: 550px;
+            bottom: 10px;
+            width: 190px;
+        }
+.wrapper ol li{
+            float: left;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            text-align: center;
+            border-radius: 50%;
+            cursor: default;
+            background-color: #abc;
+        }
+.wrapper ol li.current{
+            background-color: pink;
+        }
+.banner-box .wrap-ul{
+	width: 137px;
+	height: 483px;
+	border: 1px solid yellow;
+	position: absolute;
+	left: 80px;
+	top: 0px;
+	z-index: 200;
+}  
+.ul1{
+	height: 30px;
+}   
+.sub-class{
+	width: 880px;
+	border: 1px solid blueviolet;
+	z-index: 200;
+	position: absolute;
+	top: 0px;
+	left: 138px;
+	background-color: #FFFDEE;
+}   
+
