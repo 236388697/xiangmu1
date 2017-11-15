@@ -22,9 +22,11 @@ $(".uls").each(function(indexs){
 	$(".uls").eq(indexs).mouseenter(function(){
 		$(".sub-class") .css("display","none");
 		$(".sub-class").eq(indexs).css("display","block");
-       
-   	 
-   })
+	}),
+	$(".uls").eq(indexs).mouseleave(function(){
+			$(".sub-class").eq(indexs).css("display","none");
+		})
+	
 })
   
 }
